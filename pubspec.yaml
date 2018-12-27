@@ -1,0 +1,114 @@
+name: work6
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/img14.png
+    - images/img4.png
+    - images/img13.png
+    - images/img12.png
+    - images/img11.png
+    - images/img10.png
+    - images/img9.png
+    - images/img8.png
+    - images/img7.jpg
+    - images/img6.png
+    - images/img5.png
+    - images/img3.png
+    - images/img2.png
+    - images/img1.png
+    - images/golem.png
+    - images/gladiador.png
+    - images/maga.png
+    - images/fondo1.jpg
+    - images/fondo2.jpg
+    - images/fondo3.jpg
+    - images/fondo4.jpg
+    - images/fondo5.jpg
+
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Comfortaa
+       fonts:
+         - asset: fonts/Comfortaa-Regular.ttf
+         - asset: fonts/Comfortaa-Light.ttf
+         - asset: fonts/Comfortaa-Bold.ttf
+     - family: Courgette
+       fonts:
+          - asset: fonts/Courgette-Regular.ttf
+     - family: IndieFlower
+       fonts:
+          - asset: fonts/IndieFlower.ttf
+     - family: Pacifico
+       fonts:
+          - asset: fonts/Pacifico-Regular.ttf
+     - family: Lobster
+       fonts:
+          - asset: fonts/Lobster-Regular.ttf
+     - family: Merriweather
+       fonts:
+         - asset: fonts/Merriweather-Regular.ttf
+         - asset: fonts/Merriweather-Italic.ttf
+         - asset: fonts/Merriweather-BoldItalic.ttf
+     - family: Muli
+       fonts:
+         - asset: fonts/Muli-Bold.ttf
+         - asset: fonts/Muli-ExtraLightItalic.ttf
+         - asset: fonts/Muli-Italic.ttf
+         - asset: fonts/Muli-Light.ttf
+         - asset: fonts/Muli-Regular.ttf
+
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
